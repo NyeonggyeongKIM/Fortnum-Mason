@@ -1,0 +1,114 @@
+/* fortnum and mason css */
+
+/* init */
+*{margin: 0; padding: 0; box-sizing: border-box; list-style: none; text-decoration: none;}
+
+
+/* style calss */
+.border-black {
+  border: 1px solid black;
+}
+
+.border-white {
+  border: 1px solid white;
+}
+
+.border-blue {
+  border: 1px solid blue;
+}
+
+.bacol-white {
+  background-color: white;
+}
+
+.bacol-pink {
+  background-color: pink;
+}
+
+.bacol-skyblue {
+  background-color: skyblue;
+}
+
+
+/* background image attatchment section */
+#main {
+  width: 100vw;
+  height: 100vh;
+  background-image: url(/img/background-image.jpg);
+  background-attachment: fixed;
+}
+
+
+/* header */
+header {
+  width: 100%;
+  height: 200px;
+  display: flex;
+  justify-content: space-between;
+}
+
+h1 {
+  width: 200px;
+  height: 100px;
+  background-color: white;
+}
+
+#left-deco, 
+#right-deco {
+  width: 815px;
+  height: 160px;
+}
+
+#upper-tab-menu {
+  width: 340px;
+  height: 50px;
+  position: absolute;
+  right: 100px;
+  top: 140px;
+}
+
+/* main visual section */
+#main-visual-container {
+  width: 100vw;
+  height: 740px;
+  display: flex;
+}
+
+#main-visual-left {
+  width: 35vw;
+  height: 100%;
+}
+
+#main-visual-right {
+  width: 65vw;
+  height: 100%;
+}
+
+
+/* parellax secton start */
+#container {
+  width: 100vw;
+  height: auto;
+  background-color: #f7f2e7;
+}
+
+/* container > header2 */
+#header2 {
+  width: 100vw;
+  height: 250px;
+}
+
+#tea-section {
+  width: 100vw;
+  height: 920px;
+}
+
+#about-us-section {
+  width: 100vw;
+  height: 800px;
+}
+
+#hamper-section {
+  width: 100vw;
+  height: 860px;
+}
